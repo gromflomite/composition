@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+   font-family: 'Roboto', sans-serif;  
+}
+
+body {
+    width: 90%;
+    margin: 4% auto;    
+}
+
+header {
+    overflow: hidden;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.titles h5 {
+    font-size: 3rem;    
+    font-family: 'Playfair Display', serif;    
+    margin: 0;
+    
+}
+
+.subtitle {
+    margin: 0.1rem;
+    
+}
+.titles {
+    float: left;
+}
+
+nav {
+    float: right;
+    display: flex;
+    background-color: firebrick;
+    border-radius: 10px;
+    color: gold;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    
+}
+
+.moto {
+    font-style: italic;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Pacifico', cursive;    
+}
+
+.jumbo img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.services p {
+    background-color: firebrick;
+    border-radius: 5px;
+    color: gold;
+    width: 200px;
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.3rem;    
+}
+
+.servicieslist {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.servicieslist a {
+    color: firebrick;
+    font-size: 20px;        
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.players h5 {
+    
+}
+
+.players {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;   
+}
+
+.players a {
+    color: firebrick;
+    font-size: 20px;        
+    text-decoration: none;    
+}
+
+.playerslist p {
+    background-color: firebrick;
+    border-radius: 5px;
+    color: gold;
+    width: 200px;
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.3rem;   
+}
+
+.playerslist img {
+    height: 16rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.3rem;
+}
+
+.players a {
+    font-size: 1rem;    
+}
+
+.latestwork .lw {
+    background-color: firebrick;
+    border-radius: 5px;
+    color: gold;
+    width: 200px;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.3rem;    
+}
+
+.oldimages {
+    display: flex;    
+    align-items: center;    
+}
+
+.oldimages img {
+    height: 15rem;
+    padding: 1rem;
+    
+}
+
+footer {
+    background-color: lightgrey;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.details {
+    height: 100%;
+    float: 
+}
+
+.blog {
+    width: 50%;
+    float: inline-start;
+    margin-left: 1rem;
+    padding-right: 3rem;
+}
+
+.blog img {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.3rem;
+}
+
+.blog .title {
+   color: black;   
+}
+
+.blog h4 {
+    color: red;
+}
+
+.details .company {
+    float: left;
+    width: 20%;
+}
+
+.copyright {
+    clear: both;   
+    font-style: italic;
+}
+
+.rights {
+    float: left;
+    padding-left: 1rem;
+    
+}
+
+.name {
+    float: right;
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
